@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.pageTitle {
+	font-size: 45px;
+  margin: 5px;
+  text-align: center;
+}
+
+/* the great container */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* the left side */
+.container-mapSide {
+	display: flex;
+  flex-direction: column;
+}
+
+/* the lists */
+ul {
+  width: 350px;
+	height: 25px;
+  margin: 15px auto 0;
+  list-style-type: none;
+}
+li {
+  padding: 5px 10px 4px;
+	float: left;
+  color: white;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+
+/* for the map */
+.map {
+  width: 480px; height: 440px;
+  margin: 15px;
+  margin-top: 0;
+}
+
+.department {
+  stroke: black;
+  stroke-width: 0.2px;
+	transform: scale(6) translate(-49%, -203px);
+}
+
+
+/* the right side of the screen */
+.container-descSide {
+	width: 400px; height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.container-descSide__departmentName {
+	font-size: 35px;
+  text-align: center;
+}
+
+.container-descSide__totalDeaths {
+	text-align: center;
+}
+
+.container-descSide__CopR {
+	text-align: center;
+}
