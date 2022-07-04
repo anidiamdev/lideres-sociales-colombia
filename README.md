@@ -17,3 +17,5 @@ This project is something i've been working on since a little while, and basicly
 Basicly made it because i thought it would be very cool doing a serious JS project for once, and this was so.
 
 Im gonna be putting a link to it hosted whem i have it, but for now you can see it [here](https://vizhub.com/anidiamdev/c581dbe739ff4fd9be4cf7873a4b2c14).
+
+Also, the place where i worked with the data and well, the api, is hosted [here](https://lideressocialesrest.anidiamdev.repl.co).
