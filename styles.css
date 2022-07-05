@@ -4,6 +4,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 .pageTitle {
 	font-size: 45px;
   margin: 5px;

@@ -19,3 +19,19 @@ Basicly made it because i thought it would be very cool doing a serious JS proje
 Im gonna be putting a link to it hosted whem i have it, but for now you can see it [here](https://vizhub.com/anidiamdev/c581dbe739ff4fd9be4cf7873a4b2c14).
 
 Also, the place where i worked with the data and well, the api, is hosted [here](https://lideressocialesrest.anidiamdev.repl.co).
+
+## A Simple Look At How The Project Looks Like Now (07/04/22)(DD/MM/YY)
+
+The project looks like this:
+
+![alt text](repo-images/main-view.png)
+
+The visualiztion does have two main functionalities that you can use, and those are:
+
+Selecting a department: Show the total amount for the department during the time you select.
+
+![alt text](repo-images/department-select.png)
+
+Selecting a year: displays how would the map look like for that specific year, you can also select a department once you have selected a year, and it will display how that department did during that year.
+
+![alt text](repo-images/year-select.png)
