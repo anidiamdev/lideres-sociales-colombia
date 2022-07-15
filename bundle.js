@@ -22,6 +22,8 @@
   Promise.all([d3$1.csv(regions), d3$1.json(deaths), d3$1.json(map)])
   	.then(values => {
     	
+      document.getElementsByClassName("container-mapSide__loading-text")[0].style.fill = "white";
+
     	// constants based on values from promises
     	const regions = values[0],
             deaths = values[1],

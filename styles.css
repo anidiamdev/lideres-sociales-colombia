@@ -15,9 +15,13 @@ a {
 }
 
 /* the great container */
+.c {
+  display: flex;
+}
 .container {
   display: flex;
   flex-direction: row;
+  margin: auto;
 }
 
 /* the left side */
@@ -49,6 +53,12 @@ li:hover {
   width: 480px; height: 440px;
   margin: 15px;
   margin-top: 0;
+}
+
+.container-mapSide__loading-text {
+  font-weight: bold;
+  font-size: 35px;
+  transition: 0.5s;
 }
 
 .department {

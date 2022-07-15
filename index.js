@@ -17,10 +17,11 @@ const toTitleCase = str => {
   });
 }
 
-
 // Everything that comes to rendering
 Promise.all([csv(regions), json(deaths), json(map)])
 	.then(values => {
+
+    document.getElementsByClassName("container-mapSide__loading-text")[0].style.fill = "white";
   	
   	// constants based on values from promises
   	const regions = values[0],
